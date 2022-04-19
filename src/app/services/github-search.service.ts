@@ -6,6 +6,8 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class GithubSearchService {
+  repoResults: any[] = [];
+  userResults!: any;
   url : string = "https://api.github.com/users/";
 
   constructor(private http: HttpClient) { }
@@ -13,6 +15,18 @@ export class GithubSearchService {
   getUser(username:string){
     // https://api.github.com/users/username
 
-    this.http.get(this.url + username)
+    let promise = new Promise<void>((resolve, reject) => {
+      this.http.get(this.url + username).subscribe({
+        next: (res: any) => {
+          this.userResults = res
+          resolve()
+        },
+        error: (err: any) => {
+          reject(err);
+        },
+        
+        
+      })
+    })
   }
 }
