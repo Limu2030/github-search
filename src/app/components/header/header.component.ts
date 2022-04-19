@@ -20,4 +20,5 @@ export class HeaderComponent implements OnInit {
     this.findService.getRepo(term)
   }
 
+  userDetail : any
 }
