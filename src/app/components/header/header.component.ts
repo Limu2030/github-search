@@ -1,3 +1,4 @@
+import { useAnimation } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 
 import { GithubSearchService } from 'src/app/services/github-search.service';
@@ -24,5 +25,8 @@ export class HeaderComponent implements OnInit {
     this.findService.getRepo(term)
   }
 
-    
+    function name(params:type) {AudioWorklet
+      useAnimation
+      
+    }
 }
