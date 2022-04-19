@@ -23,10 +23,26 @@ export class GithubSearchService {
         },
         error: (err: any) => {
           reject(err);
-        },
-        
+        }
         
       })
-    })
+    });
+  }
+
+  getRepo(username:string){
+    // https://api.github.com/users/username
+
+    let promise = new Promise<void>((resolve, reject) => {
+      this.http.get(this.url + username + '/repos').subscribe({
+        next: (res: any) => {
+          this.repoResults = res
+          resolve()
+        },
+        error: (err: any) => {
+          reject(err);
+        }
+        
+      })
+    });
   }
 }

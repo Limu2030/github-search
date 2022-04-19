@@ -23,3 +23,9 @@
 
    
 </div>
+
+<div class="container">
+  <ul>
+    <li *ngFor="let repo of findService.repoResults">{{ repo.name }}</li>
+  </ul>
+</div>

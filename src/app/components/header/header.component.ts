@@ -8,13 +8,14 @@ import { GithubSearchService } from 'src/app/services/github-search.service';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private findService: GithubSearchService) { }
+  constructor(public findService: GithubSearchService) { }
 
   ngOnInit(): void {
   }
 
   findData(term: string) {
     this.findService.getUser(term)
+    this.findService.getRepo(term)
   }
 
 }
