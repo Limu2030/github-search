@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { userInfo } from 'os';
 import { GithubSearchService } from 'src/app/services/github-search.service';
 
 @Component({
@@ -11,6 +12,9 @@ export class HeaderComponent implements OnInit {
   constructor(public findService: GithubSearchService) { }
 
   ngOnInit(): void {
+
+    
+
     this.findService.getUser('Limu2030')
     this.findService.getRepo('Limu2030')
   }
@@ -20,5 +24,5 @@ export class HeaderComponent implements OnInit {
     this.findService.getRepo(term)
   }
 
-  userDetail : any
+    
 }
