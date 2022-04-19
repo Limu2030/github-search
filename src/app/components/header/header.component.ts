@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { userInfo } from 'os';
+
 import { GithubSearchService } from 'src/app/services/github-search.service';
 
 @Component({
