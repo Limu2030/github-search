@@ -11,6 +11,8 @@ export class HeaderComponent implements OnInit {
   constructor(public findService: GithubSearchService) { }
 
   ngOnInit(): void {
+    this.findService.getUser('Limu2030')
+    this.findService.getRepo('Limu2030')
   }
 
   findData(term: string) {

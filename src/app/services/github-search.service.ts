@@ -27,6 +27,7 @@ export class GithubSearchService {
         
       })
     });
+    return promise
   }
 
   getRepo(username:string){
@@ -44,5 +45,7 @@ export class GithubSearchService {
         
       })
     });
+    return promise
   }
+
 }

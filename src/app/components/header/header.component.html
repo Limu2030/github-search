@@ -25,6 +25,9 @@
 </div>
 
 <div class="container">
+  <div>
+    <img src="{{ findService.userResults.avatar_url }}" class="img-fluid img-rounded-circle" alt="">
+  </div>
   <ul>
     <li *ngFor="let repo of findService.repoResults">{{ repo.name }}</li>
   </ul>
