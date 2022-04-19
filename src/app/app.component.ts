@@ -8,4 +8,5 @@ import { DoBootstrap } from '@angular/core';
 })
 export class AppComponent {
   title = 'github-search';
+  username = 'name of the user'
 }
