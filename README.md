@@ -1,6 +1,27 @@
-# Github Search ### by Lillian Muita
+#    Github Search 
+#### By Lillian Muita
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
+## Table of Contents
+
+- [Description](#Description)
+- [Technology Used](#technologies-used)
+- [Licence](#licence)
+- [Live link](#live-link)
+- [Authors Info](#author-Info)
+
+## Description
+
+<p>A Github Search Web Application that allows you to look for any user on github and see their details</p>
+
+![screenshot](./src/assets/images/gs.png)
+
+## Technologies Used
+
+- HTML
+- CSS
+- TypeScript
+- Angular
+
 
 ## Development server
 
@@ -26,3 +47,15 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
+## Live Link
+
+#### https://limu2030.github.io/github-search/
+
+## License
+
+[MIT License](LICENSE)
+
+### Authors Info
+
+<i class="material-icons" style="color: red">lillian.muita@student.moringaschool.com</i> 
+<i class="fa fa-twitter-square"style="color: blue">Limu2030</i> 
