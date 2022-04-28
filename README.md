@@ -57,5 +57,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ### Authors Info
 
-<i class="material-icons" style="color: red">lillian.muita@student.moringaschool.com</i> 
-<i class="fa fa-twitter-square"style="color: blue">Limu2030</i> 
+email:  lillian.muita@student.moringaschool.com
+
+![fa fa-twitter-square](fa fa-twitter-square.svg) @limu2030
