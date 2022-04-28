@@ -59,4 +59,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 email:  lillian.muita@student.moringaschool.com
 
-![fa fa-twitter-square](fa fa-twitter-square.svg) @limu2030
+twitter: @limu2030
